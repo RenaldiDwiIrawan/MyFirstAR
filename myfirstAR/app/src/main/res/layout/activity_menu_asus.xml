@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        tools:context=".menuAsus">
+
+        <ImageButton
+            android:id="@+id/imgzenfone6"
+            android:layout_width="240dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/zenfone6" />
+
+            <TextView
+                android:id="@+id/ic.screen.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/imgzenfone6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/ic_screen" />
+            <TextView
+                android:id="@+id/txt.screen.zen6"
+                android:layout_toRightOf="@+id/ic.screen.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:paddingLeft="5dp"
+                android:text="6.4 inch "
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/txt.screen.zen6.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1080x2340 pixel"
+                android:layout_below="@+id/txt.screen.zen6"
+                android:layout_toEndOf="@+id/ic.screen.zen6"
+                android:textSize="10sp"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/ic.kamera.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_camera"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgzenfone6"
+                android:layout_below="@+id/ic.screen.zen6"/>
+            <TextView
+                android:id="@+id/txt.kamera.zen6"
+                android:layout_toRightOf="@+id/ic.kamera.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt.screen.zen6.2"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="5dp"
+                android:text="48MP"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/txt.kamera.zen6.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1080x2340 pixel"
+                android:layout_below="@+id/txt.kamera.zen6"
+                android:layout_toEndOf="@+id/ic.kamera.zen6"
+                android:textSize="10sp"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/ic.proci.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_proci"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgzenfone6"
+                android:layout_below="@+id/ic.kamera.zen6"/>
+            <TextView
+                android:id="@+id/txt.proci.zen6"
+                android:layout_toRightOf="@+id/ic.proci.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt.kamera.zen6.2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:text="6-128GB RAM"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/txt.proci.zen6.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Snapdragon 855"
+                android:layout_below="@+id/txt.proci.zen6"
+                android:layout_toEndOf="@+id/ic.proci.zen6"
+                android:textSize="10sp"
+                android:paddingLeft="5dp"/>
+            <TextView
+                android:id="@+id/ic.battery.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_battery"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/imgzenfone6"
+                android:layout_below="@+id/ic.proci.zen6"/>
+            <TextView
+                android:id="@+id/txt.battery.zen6"
+                android:layout_toRightOf="@+id/ic.proci.zen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt.proci.zen6.2"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:text="5000 mAh"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/txt.battery.zen6.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Li-Po"
+                android:layout_below="@+id/txt.battery.zen6"
+                android:layout_toEndOf="@+id/ic.proci.zen6"
+                android:textSize="10sp"
+                android:paddingLeft="5dp"/>
+
+            <ImageButton
+                android:id="@+id/imgzenfone7"
+                android:layout_width="240dp"
+                android:layout_height="250dp"
+                android:background="@drawable/zenfone7"
+                android:layout_below="@+id/imgzenfone6"
+                android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/ic.screen.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imgzenfone7"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="110dp"
+                    android:background="@drawable/ic_screen"
+                    android:layout_below="@+id/txt.battery.zen6.2" />
+                <TextView
+                    android:id="@+id/txt.screen.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ic.screen.zen7"
+                    android:layout_below="@+id/txt.battery.zen6.2"
+                    android:layout_marginTop="110dp"
+                    android:paddingLeft="5dp"
+                    android:text="6.67 inc"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/txt.screen.zen7.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1080x2400 pixel"
+                    android:layout_below="@+id/txt.screen.zen7"
+                    android:layout_toEndOf="@+id/ic.screen.zen7"
+                    android:textSize="10sp"
+                    android:paddingLeft="5dp"/>
+
+                 <TextView
+                    android:id="@+id/ic.kamera.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_camera"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/imgzenfone7"
+                    android:layout_below="@+id/ic.screen.zen7"/>
+                <TextView
+                    android:id="@+id/txt.kamera.zen7"
+                    android:layout_toRightOf="@+id/ic.kamera.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt.screen.zen7.2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="64 MP"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/txt.kamera.zen7.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4320p"
+                    android:layout_below="@+id/txt.kamera.zen7"
+                    android:layout_toEndOf="@+id/ic.kamera.zen7"
+                    android:textSize="10sp"
+                    android:paddingLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/ic.proci.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_proci"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/imgzenfone7"
+                    android:layout_below="@+id/ic.kamera.zen7"/>
+                <TextView
+                    android:id="@+id/txt.proci.zen7"
+                    android:layout_toRightOf="@+id/ic.proci.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt.kamera.zen7.2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="6/8GB RAM"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/txt.proci.zen7.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Snapdragon 865"
+                    android:layout_below="@+id/txt.proci.zen7"
+                    android:layout_toEndOf="@+id/ic.proci.zen7"
+                    android:textSize="10sp"
+                    android:paddingLeft="5dp"/>
+
+                <TextView
+                    android:id="@+id/ic.battery.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_battery"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_toRightOf="@+id/imgzenfone7"
+                    android:layout_below="@+id/ic.proci.zen7"/>
+                <TextView
+                    android:id="@+id/txt.battery.zen7"
+                    android:layout_toRightOf="@+id/ic.proci.zen7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt.proci.zen7.2"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="5000 mAh"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/txt.battery.zen7.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Li-Po"
+                    android:layout_below="@+id/txt.battery.zen7"
+                    android:layout_toEndOf="@+id/ic.battery.zen7"
+                    android:textSize="10sp"
+                    android:paddingLeft="5dp"/>
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,1012 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asus Zenfone 6 ZS630KL"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/txtsub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtheader"
+            android:text="Spesifikasi "
+            android:layout_marginLeft="15dp"/>
+
+
+
+        <ImageButton
+            android:id="@+id/imgzenfone6"
+            android:layout_width="240dp"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/txtsub"
+            android:background="@drawable/zenfone6" />
+
+        <TextView
+            android:id="@+id/ic.screen.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgzenfone6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/ic_screen" />
+        <TextView
+            android:id="@+id/txt.screen.zen6"
+            android:layout_toRightOf="@+id/ic.screen.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:paddingLeft="5dp"
+            android:text="6.4 inch "
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/txt.screen.zen6.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1080x2340 pixel"
+            android:layout_below="@+id/txt.screen.zen6"
+            android:layout_toEndOf="@+id/ic.screen.zen6"
+            android:textSize="10sp"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:id="@+id/ic.kamera.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_camera"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/imgzenfone6"
+            android:layout_below="@+id/ic.screen.zen6"/>
+        <TextView
+            android:id="@+id/txt.kamera.zen6"
+            android:layout_toRightOf="@+id/ic.kamera.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt.screen.zen6.2"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="5dp"
+            android:text="48MP"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/txt.kamera.zen6.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1080x2340 pixel"
+            android:layout_below="@+id/txt.kamera.zen6"
+            android:layout_toEndOf="@+id/ic.kamera.zen6"
+            android:textSize="10sp"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:id="@+id/ic.proci.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_proci"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/imgzenfone6"
+            android:layout_below="@+id/ic.kamera.zen6"/>
+        <TextView
+            android:id="@+id/txt.proci.zen6"
+            android:layout_toRightOf="@+id/ic.proci.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt.kamera.zen6.2"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:text="6-128GB RAM"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/txt.proci.zen6.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snapdragon 855"
+            android:layout_below="@+id/txt.proci.zen6"
+            android:layout_toEndOf="@+id/ic.proci.zen6"
+            android:textSize="10sp"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:id="@+id/ic.battery.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_battery"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/imgzenfone6"
+            android:layout_below="@+id/ic.proci.zen6"/>
+        <TextView
+            android:id="@+id/txt.battery.zen6"
+            android:layout_toRightOf="@+id/ic.proci.zen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt.proci.zen6.2"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="5000 mAh"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/txt.battery.zen6.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Li-Po"
+            android:layout_below="@+id/txt.battery.zen6"
+            android:layout_toEndOf="@+id/ic.proci.zen6"
+            android:textSize="10sp"
+            android:paddingLeft="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnarzen6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="Lihat Smartphone dengan Augmented Reality"
+            android:layout_below="@+id/imgzenfone6"
+            android:padding="15dp"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <TableLayout
+            android:id="@+id/tablescroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="390dp"
+            android:background="@color/abuabu"
+            android:scrollbars="horizontal">
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="NETWORK"
+                android:textColor="@color/merah"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Technology"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="GSM/HSPA/LTE"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="2G Bands"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="GSM 850 / 900 / 1900 / 1900 - SIM 1 &amp; SIM 2"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="3G Bands"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="HSDPA 850 / 900 / 1900 / 2100 / - A version \nHSDPA 800 / 850 /
+900 / 1700(AWS) / 1800\n/ 1900 / 2100 - B version, C version"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="4G Bands"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="1, 2, 3, 5, 7, 8, 20, 28, 38, 40, 41 - A Version \n1, 2, 3, 4, 5, 7, 8,
+18, 19, 26, 28, 28, 38, 39, 41, 46 - B version \n1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 26, 28, 38, 39, 41,
+ 46 - C version"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <View
+            android:layout_height="10dp"
+            android:background="@color/hitam" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="LAUNCH"
+                android:textColor="@color/merah"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Announced"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="2019, May 16"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Status"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Available. Realeased 2019, May"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <View
+            android:layout_height="10dp"
+            android:background="@color/hitam" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="BODY"
+                android:textColor="@color/merah"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="DImensions"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="159.1 x 75.4 x 9.2 mm (6.26 x 2.97 x 0.36 inc)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Weight"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="190g (6.70 oz)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Build"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Glass Front (Gorilla Glass 6), Glass Back (Gorilla Glass 3)\n alumunium frame"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="SIM"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Dual SIM (Nano-SIM, dual stand-by)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <View
+            android:layout_height="10dp"
+            android:background="@color/hitam" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="DISPLAY"
+                android:textColor="@color/merah"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Type"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="IPS LCD, HDR 10"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Size"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="6.4 inches, 100.5cm(2) (~83.8% screen-to-body ratio)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Resolotion"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="1080 x 2340 pixels, 19.5:9 ratio (~403 ppi density)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Protection"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Corning Gorilla Glass 6"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <View
+            android:layout_height="10dp"
+            android:background="@color/hitam" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:padding="3dp"
+            android:text="PLATFORM"
+            android:textColor="@color/merah"
+            android:textStyle="bold" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="OS"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Android 9.0 (Pie), upgradeable to Android 11, ZenUI"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Chipset"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Qualcomm SM8150 SNapdragon 855 (7nm)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="CPU"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Octa-core (1x2.84 GHz &amp; 3x2.42 GHz Kryo 485 &amp; 4x1.78 GHz Kryo485)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="GPU"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Adreno 640"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+
+        <View
+            android:layout_height="10dp"
+            android:background="@color/hitam" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:padding="3dp"
+            android:text="MEMORY"
+            android:textColor="@color/merah"
+            android:textStyle="bold" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Card Slot"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="microSDXC (Dedicated Slot)"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Internal"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="64GB 6GB RAM, 128GB 6GB RAM, 256GB 8GB RAM, 512GB 12GB RAM \nUFS 2.1"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+            <View
+                android:background="@color/hitam"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="MAIN CAMERA"
+                android:textColor="@color/merah"
+                android:textStyle="bold" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Dual"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Motorized flip-up main camera module"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Features"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Dual-LED flash, HDR, auto panorama (motorized rotation)"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Video"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="4K@30/60fps, 1080p@30/60/240fps, 720@480fps; gyro-EIS (except @240/480fps)"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+
+            <View
+                android:background="@color/hitam"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="SELFIE CAMERA"
+                android:textColor="@color/merah"
+                android:textStyle="bold" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Dual"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Motorized flip-up main camera module"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Features"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Dual-LED flash, HDR, auto panorama (motorized rotation)"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Video"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="4K@30/60fps, 1080p@30/60/240fps, 720@480fps; gyro-EIS (except @240/480fps)"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <View
+                android:layout_height="10dp"
+                android:background="@color/hitam"/>
+
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="SOUND"
+                android:textColor="@color/merah"
+                android:textStyle="bold" />
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Loudspeaker"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Yes, with stereo speakers"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="3.5mm jack"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Yes \n24-bit/192kHz audio"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <View
+                android:layout_height="10dp"
+                android:background="@color/hitam"/>
+
+            <TableRow>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/merah"
+                    android:text="COMMS"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="WLAN"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Bluetooth"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="5.0, A2DP, LE, aptX HD"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="GPS"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Yes, with dual-band A-GPS, GLONASS, BDS, GALILEO,QZSS"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="NFC"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Yes"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Radio"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="FM radio"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="USB"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="USB Type-C 2.0"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <View
+                android:layout_height="10dp"
+                android:background="@color/hitam"/>
+
+         <TableRow>
+            <TextView
+                android:padding="5dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/merah"
+                android:text="FEATURES"/>
+            </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:padding="3dp"
+                android:text="Sensor"
+                android:textColor="@color/putih" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:padding="3dp"
+                android:text="Fingerprint (rear-mounted), accelerometer, gyro, proximity, compass"
+                android:textColor="@color/putih" />
+        </TableRow>
+
+            <View
+                android:layout_height="10dp"
+                android:background="@color/hitam"/>
+
+            <TableRow>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/merah"
+                    android:text="BATTERY"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Type"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Li-Po 5000 mAh, non-removable"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Charging"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Fast Charging 18W\nQuick Charge 4.0\nReverse charging 10W"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Stand-by"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Up to 624 h (3G)"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Talk time"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Up to 33h (3G)"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <View
+                android:layout_height="10dp"
+                android:background="@color/hitam"/>
+
+            <TableRow>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/merah"
+                    android:text="MISC"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Colors"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Midnight Black, Twilight Silver"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Models"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="ASUS_I01WD, ZS630KL, I01WD"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Price"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="Abaout 500 EUR"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <View
+                android:layout_height="10dp"
+                android:background="@color/hitam"/>
+
+            <TableRow>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/merah"
+                    android:text="TESTS"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:padding="3dp"
+                    android:text="Performance"
+                    android:textColor="@color/putih" />
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:padding="3dp"
+                    android:text="AnTuTu: 361679 (v7), 447774 (v8)\nGeekBench: 10721 (v4.4),
+ 2609 (v5.1) \nGFXBench: 36fps (ES 3.1 onscreen)"
+                    android:textColor="@color/putih" />
+            </TableRow>
+
+            <View
+                android:layout_height="10dp"
+                android:background="@color/hitam"/>
+
+        </TableLayout>
+    </RelativeLayout>
+</LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>
